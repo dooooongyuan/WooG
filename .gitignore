@@ -1,0 +1,23 @@
+# Local runtime data and credentials
+*.token
+*.token.enc
+*.sqlite3
+*.db
+steam-cookie
+wog-price-data/
+宝玉助手统计.json
+宝玉助手经济记录.json
+宝玉助手价格缓存.json
+宝玉助手配置.json
+
+# Build and test artifacts
+build/
+dist/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local/editor files
+.env
+.venv/
+*.log
